@@ -7,21 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A560F452296D1C100293E6A /* PrincipalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A560F442296D1C100293E6A /* PrincipalTableViewCell.swift */; };
 		3A62ABFD2292D9E0009B663B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A62ABFC2292D9E0009B663B /* AppDelegate.swift */; };
-		3A62ABFF2292D9E0009B663B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A62ABFE2292D9E0009B663B /* ViewController.swift */; };
+		3A62ABFF2292D9E0009B663B /* PrincipalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A62ABFE2292D9E0009B663B /* PrincipalTableViewController.swift */; };
 		3A62AC022292D9E0009B663B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A62AC002292D9E0009B663B /* Main.storyboard */; };
 		3A62AC042292D9E0009B663B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A62AC032292D9E0009B663B /* Assets.xcassets */; };
 		3A62AC072292D9E0009B663B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A62AC052292D9E0009B663B /* LaunchScreen.storyboard */; };
+		3A62AC0F2292FA2E009B663B /* CombustivelTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A62AC0E2292FA2D009B663B /* CombustivelTableViewController.swift */; };
+		3A62AC112292FA3C009B663B /* PostosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A62AC102292FA3C009B663B /* PostosTableViewController.swift */; };
+		3A62AC132292FB4C009B663B /* PostoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A62AC122292FB4C009B663B /* PostoTableViewCell.swift */; };
+		3A62AC152292FCDF009B663B /* CombustivelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A62AC142292FCDF009B663B /* CombustivelTableViewCell.swift */; };
+		3A62AC192292FE6D009B663B /* AbastecimentoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A62AC182292FE6D009B663B /* AbastecimentoTableViewController.swift */; };
+		3AB8FC9B2295812200039983 /* NovoPostoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB8FC9A2295812200039983 /* NovoPostoTableViewController.swift */; };
+		3AC791E522981DA200EC3660 /* DetalheAbastecimentoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC791E422981DA200EC3660 /* DetalheAbastecimentoTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A560F442296D1C100293E6A /* PrincipalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrincipalTableViewCell.swift; sourceTree = "<group>"; };
 		3A62ABF92292D9E0009B663B /* AtividadeTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AtividadeTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A62ABFC2292D9E0009B663B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3A62ABFE2292D9E0009B663B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3A62ABFE2292D9E0009B663B /* PrincipalTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrincipalTableViewController.swift; sourceTree = "<group>"; };
 		3A62AC012292D9E0009B663B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3A62AC032292D9E0009B663B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A62AC062292D9E0009B663B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A62AC082292D9E0009B663B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A62AC0E2292FA2D009B663B /* CombustivelTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombustivelTableViewController.swift; sourceTree = "<group>"; };
+		3A62AC102292FA3C009B663B /* PostosTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostosTableViewController.swift; sourceTree = "<group>"; };
+		3A62AC122292FB4C009B663B /* PostoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostoTableViewCell.swift; sourceTree = "<group>"; };
+		3A62AC142292FCDF009B663B /* CombustivelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombustivelTableViewCell.swift; sourceTree = "<group>"; };
+		3A62AC182292FE6D009B663B /* AbastecimentoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbastecimentoTableViewController.swift; sourceTree = "<group>"; };
+		3AB8FC9A2295812200039983 /* NovoPostoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovoPostoTableViewController.swift; sourceTree = "<group>"; };
+		3AC791E422981DA200EC3660 /* DetalheAbastecimentoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalheAbastecimentoTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +71,37 @@
 			isa = PBXGroup;
 			children = (
 				3A62ABFC2292D9E0009B663B /* AppDelegate.swift */,
-				3A62ABFE2292D9E0009B663B /* ViewController.swift */,
+				3A62ABFE2292D9E0009B663B /* PrincipalTableViewController.swift */,
+				3A560F442296D1C100293E6A /* PrincipalTableViewCell.swift */,
 				3A62AC002292D9E0009B663B /* Main.storyboard */,
+				3AC791E422981DA200EC3660 /* DetalheAbastecimentoTableViewController.swift */,
+				3A62AC182292FE6D009B663B /* AbastecimentoTableViewController.swift */,
+				3A62AC162292FCF3009B663B /* Combustivel */,
+				3A62AC172292FD0B009B663B /* Postos */,
 				3A62AC032292D9E0009B663B /* Assets.xcassets */,
 				3A62AC052292D9E0009B663B /* LaunchScreen.storyboard */,
 				3A62AC082292D9E0009B663B /* Info.plist */,
 			);
 			path = AtividadeTableView;
+			sourceTree = "<group>";
+		};
+		3A62AC162292FCF3009B663B /* Combustivel */ = {
+			isa = PBXGroup;
+			children = (
+				3A62AC0E2292FA2D009B663B /* CombustivelTableViewController.swift */,
+				3A62AC142292FCDF009B663B /* CombustivelTableViewCell.swift */,
+			);
+			path = Combustivel;
+			sourceTree = "<group>";
+		};
+		3A62AC172292FD0B009B663B /* Postos */ = {
+			isa = PBXGroup;
+			children = (
+				3A62AC102292FA3C009B663B /* PostosTableViewController.swift */,
+				3AB8FC9A2295812200039983 /* NovoPostoTableViewController.swift */,
+				3A62AC122292FB4C009B663B /* PostoTableViewCell.swift */,
+			);
+			path = Postos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +175,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A62ABFF2292D9E0009B663B /* ViewController.swift in Sources */,
+				3A560F452296D1C100293E6A /* PrincipalTableViewCell.swift in Sources */,
+				3A62AC132292FB4C009B663B /* PostoTableViewCell.swift in Sources */,
+				3A62ABFF2292D9E0009B663B /* PrincipalTableViewController.swift in Sources */,
+				3A62AC112292FA3C009B663B /* PostosTableViewController.swift in Sources */,
+				3A62AC152292FCDF009B663B /* CombustivelTableViewCell.swift in Sources */,
+				3AC791E522981DA200EC3660 /* DetalheAbastecimentoTableViewController.swift in Sources */,
 				3A62ABFD2292D9E0009B663B /* AppDelegate.swift in Sources */,
+				3AB8FC9B2295812200039983 /* NovoPostoTableViewController.swift in Sources */,
+				3A62AC192292FE6D009B663B /* AbastecimentoTableViewController.swift in Sources */,
+				3A62AC0F2292FA2E009B663B /* CombustivelTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
